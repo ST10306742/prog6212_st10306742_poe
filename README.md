@@ -150,7 +150,7 @@ Credits
 A Mahabeer, student at Varsity College with student Number ST10306742 email st10306742@vcconnect.edu.za, was the author of this application.
 ------------------------------------------------------------------------------------------------------------------------------------------
 GitHub Link:
-https://github.com/VCWVL/prog6212-poe-ST10306742.git
+https://github.com/ST10306742/prog6212_st10306742_poe.git
 ------------------------------------------------------------------------------------------------------------------------------------------
 Acknlodgements/References:
 Bro code: https://www.youtube.com/watch?v=HGTJBPNC-Gw
