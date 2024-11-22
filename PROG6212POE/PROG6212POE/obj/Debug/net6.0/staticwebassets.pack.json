@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROG6212POE.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PROG6212POE.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\bootstrap_minty_PROGPOE.css",
+      "PackagePath": "staticwebassets\\bootstrap_minty_PROGPOE.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\images\\bus_prof.jfif",
+      "PackagePath": "staticwebassets\\images\\bus_prof.jfif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\images\\data_sec.jfif",
+      "PackagePath": "staticwebassets\\images\\data_sec.jfif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\images\\dig_doc.jfif",
+      "PackagePath": "staticwebassets\\images\\dig_doc.jfif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\images\\money_calc.jfif",
+      "PackagePath": "staticwebassets\\images\\money_calc.jfif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\images\\money_growth.png",
+      "PackagePath": "staticwebassets\\images\\money_growth.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\00d35f9b-8b86-4878-953d-d1eefe9aa56c.png",
+      "PackagePath": "staticwebassets\\uploads\\00d35f9b-8b86-4878-953d-d1eefe9aa56c.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\03bde4bb-eb0f-41fe-8f95-e121da77722d.pdf",
+      "PackagePath": "staticwebassets\\uploads\\03bde4bb-eb0f-41fe-8f95-e121da77722d.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\0685fab7-69c7-4ebd-9323-c80698a9eca4.pdf",
+      "PackagePath": "staticwebassets\\uploads\\0685fab7-69c7-4ebd-9323-c80698a9eca4.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\076cc989-4acd-4252-ba28-f69248af8e2b.png",
+      "PackagePath": "staticwebassets\\uploads\\076cc989-4acd-4252-ba28-f69248af8e2b.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\1a92931c-1581-4137-bacc-9e4876df8103.pdf",
+      "PackagePath": "staticwebassets\\uploads\\1a92931c-1581-4137-bacc-9e4876df8103.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\2499cea4-b311-471c-896a-cfc3ff8824cc.pdf",
+      "PackagePath": "staticwebassets\\uploads\\2499cea4-b311-471c-896a-cfc3ff8824cc.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\25df0f34-7d6e-4259-bd7f-18b2c1cf0ee2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\25df0f34-7d6e-4259-bd7f-18b2c1cf0ee2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\2b12774c-b0a0-4a00-a4ea-f22af99bc4f2.png",
+      "PackagePath": "staticwebassets\\uploads\\2b12774c-b0a0-4a00-a4ea-f22af99bc4f2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\2f66a62f-7061-4a32-ab3a-d1b84c5fab0f.png",
+      "PackagePath": "staticwebassets\\uploads\\2f66a62f-7061-4a32-ab3a-d1b84c5fab0f.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\39ef6eb4-7eda-44b2-bb8b-61b159b1a638.pdf",
+      "PackagePath": "staticwebassets\\uploads\\39ef6eb4-7eda-44b2-bb8b-61b159b1a638.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\5ac275f9-49ed-4d4a-ba53-ab66a966b8bb.pdf",
+      "PackagePath": "staticwebassets\\uploads\\5ac275f9-49ed-4d4a-ba53-ab66a966b8bb.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\5f2364e9-f0ac-4c74-83e7-f4a2c934f19e.pdf",
+      "PackagePath": "staticwebassets\\uploads\\5f2364e9-f0ac-4c74-83e7-f4a2c934f19e.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\629a0986-42c3-43e3-87fc-3dcc0bacfa88.pdf",
+      "PackagePath": "staticwebassets\\uploads\\629a0986-42c3-43e3-87fc-3dcc0bacfa88.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\6ca23e93-fa81-4934-9220-1e0fbdd175f2.png",
+      "PackagePath": "staticwebassets\\uploads\\6ca23e93-fa81-4934-9220-1e0fbdd175f2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\9000ebaa-6036-449a-a0f3-853a42048f5a.png",
+      "PackagePath": "staticwebassets\\uploads\\9000ebaa-6036-449a-a0f3-853a42048f5a.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\a422f3aa-68be-4f76-8466-98791846b499.pdf",
+      "PackagePath": "staticwebassets\\uploads\\a422f3aa-68be-4f76-8466-98791846b499.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\b1287b85-f1b8-4078-a8e7-f937812a4756.pdf",
+      "PackagePath": "staticwebassets\\uploads\\b1287b85-f1b8-4078-a8e7-f937812a4756.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\b247bcce-4040-4556-97be-15d7a694602b.pdf",
+      "PackagePath": "staticwebassets\\uploads\\b247bcce-4040-4556-97be-15d7a694602b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\b7f1f01c-3ce7-43b7-bd3d-4059d82da0ef.pdf",
+      "PackagePath": "staticwebassets\\uploads\\b7f1f01c-3ce7-43b7-bd3d-4059d82da0ef.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\c360606c-1c16-44fb-b1b8-f62ecfe357f4.png",
+      "PackagePath": "staticwebassets\\uploads\\c360606c-1c16-44fb-b1b8-f62ecfe357f4.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\daa525e5-7425-4717-802f-931cbaf9748d.pdf",
+      "PackagePath": "staticwebassets\\uploads\\daa525e5-7425-4717-802f-931cbaf9748d.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\e946a615-ad54-45d2-847d-6d72aae1ba89.pdf",
+      "PackagePath": "staticwebassets\\uploads\\e946a615-ad54-45d2-847d-6d72aae1ba89.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\ee517868-b69a-4e6b-97c1-06b5af6f38ce.png",
+      "PackagePath": "staticwebassets\\uploads\\ee517868-b69a-4e6b-97c1-06b5af6f38ce.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\wwwroot\\uploads\\ff7ad58f-3824-4cdb-b448-15f6a43c01ca.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ff7ad58f-3824-4cdb-b448-15f6a43c01ca.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PROG6212POE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PROG6212POE.props",
+      "PackagePath": "build\\PROG6212POE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PROG6212POE.props",
+      "PackagePath": "buildMultiTargeting\\PROG6212POE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PROG6212POE.props",
+      "PackagePath": "buildTransitive\\PROG6212POE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

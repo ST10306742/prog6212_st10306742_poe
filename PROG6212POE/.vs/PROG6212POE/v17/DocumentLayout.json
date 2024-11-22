@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DD7739-B7E5-478C-87D7-9F5DB4F4038B}|PROG6212POE\\PROG6212POE.csproj|c:\\users\\dell\\desktop\\prog6212-poe-st10306742\\prog6212poe\\prog6212poe\\views\\claims\\claimslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2DD7739-B7E5-478C-87D7-9F5DB4F4038B}|PROG6212POE\\PROG6212POE.csproj|solutionrelative:prog6212poe\\views\\claims\\claimslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DD7739-B7E5-478C-87D7-9F5DB4F4038B}|PROG6212POE\\PROG6212POE.csproj|c:\\users\\dell\\desktop\\prog6212-poe-st10306742\\prog6212poe\\prog6212poe\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DD7739-B7E5-478C-87D7-9F5DB4F4038B}|PROG6212POE\\PROG6212POE.csproj|solutionrelative:prog6212poe\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaimsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\Controllers\\ClaimsController.cs",
+              "RelativeDocumentMoniker": "PROG6212POE\\Controllers\\ClaimsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\Controllers\\ClaimsController.cs",
+              "RelativeToolTip": "PROG6212POE\\Controllers\\ClaimsController.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAswLoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:54:27.832Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaimsList.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\Views\\Claims\\ClaimsList.cshtml",
+              "RelativeDocumentMoniker": "PROG6212POE\\Views\\Claims\\ClaimsList.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\prog6212-poe-ST10306742\\PROG6212POE\\PROG6212POE\\Views\\Claims\\ClaimsList.cshtml",
+              "RelativeToolTip": "PROG6212POE\\Views\\Claims\\ClaimsList.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T16:50:19.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

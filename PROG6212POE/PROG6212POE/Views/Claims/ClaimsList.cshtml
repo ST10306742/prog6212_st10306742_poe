@@ -1,0 +1,90 @@
+﻿@model IEnumerable<PROG6212POE.Models.Claims>
+
+@{
+    ViewData["Title"] = "Claims List";
+}
+
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h2 class="display-4">Claims List</h2>
+        </div>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info">
+            @ViewBag.Message
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Claim Id</th>
+                        <th>Lecturer ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Supporting Documents</th>
+                        <th>Total Amount</th>
+                        <th>Claim Status</th>
+                        @* add download docs for part 3 *@
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var claim in Model)
+                    {
+                        <tr>
+                            <td>@claim.ID</td>
+                            <td>@claim.LecturerID</td>
+                            <td>@claim.FirstName</td>
+                            <td>@claim.LastName</td>
+                            <td>
+                                @if (claim.Files != null && claim.Files.Any())
+                                {
+                                    <ul>
+                                        @foreach (var file in claim.Files)
+                                        {
+                                            <li>                                                
+                                                <a asp-action="DownloadFile" asp-route-id="@file.fileId" class="btn btn-primary btn-sm">
+                                                    Download
+                                                </a>
+                                            </li>
+                                        }
+                                    </ul>
+                                }
+                                else
+                                {
+                                    <span>No documents uploaded</span>
+                                }
+                            </td>
+                            <td>R @claim.TotalAmount</td>
+                            <td>@claim.ClaimStatus</td>
+                            @* add download docs for part 3 *@
+                            <td class="text-center">
+                                <a href="@Url.Action("ClaimDetails", new { id = claim.ID })" class="btn btn-info btn-sm">Actions</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+@* Optional: Custom CSS for further tweaks *@
+<style>
+    .container {
+        max-width: 1200px;
+    }
+
+    /* Ensure the table is fully responsive */
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+

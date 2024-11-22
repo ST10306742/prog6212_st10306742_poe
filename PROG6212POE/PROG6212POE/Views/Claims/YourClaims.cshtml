@@ -1,0 +1,61 @@
+﻿@model List<PROG6212POE.Models.Claims>
+@{
+    ViewData["Title"] = "Your Claims";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@{
+    if (TempData["message"] != null)
+    {
+        var message = TempData["message"].ToString();
+        <script>
+            toastr.success('@message'); // Display the success message using Toastr
+        </script>
+    }
+}
+
+<!-- Form to enter Lecturer ID -->
+<form method="get" asp-action="YourClaims">
+    <div class="form-group">
+        <label for="lecturerId">Enter Lecturer ID</label>
+        <input type="text" class="form-control" id="lecturerId" name="lecturerId" required />
+    </div>
+    <button type="submit" class="btn btn-primary">View Claims</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <h3>Your Claims</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.ID</td>
+                    <td>@claim.DescriptionOfWork</td>
+                    <td>@claim.ClaimStatus</td>
+                    <td>
+                        <a href="@Url.Action("EditClaims", new { id = claim.ID })" class="btn btn-secondary">Edit</a>
+                        @using (Html.BeginForm("DeleteClaims", "Claims", new { claimId = claim.ID }, FormMethod.Post))
+                        {
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No claims found for this lecturer.</p>
+}

@@ -1,0 +1,129 @@
+﻿@model PROG6212POE.Models.Claims
+@{
+    ViewData["Title"] = "Claim Details";
+}
+
+@{
+    @if (TempData["message"] != null)
+    {
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+        <script type="text/javascript">
+            toastr.success('@TempData["message"]');
+        </script>
+    }
+}
+
+<h2>Claim Details</h2>
+
+<div class="card mb-4">
+    <div class="card-header">
+        Claim Details for @Model.FirstName @Model.LastName
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Lecturer ID</dt>
+            <dd class="col-sm-9">@Model.LecturerID</dd>
+
+            <dt class="col-sm-3">First Name</dt>
+            <dd class="col-sm-9">@Model.FirstName</dd>
+
+            <dt class="col-sm-3">Last Name</dt>
+            <dd class="col-sm-9">@Model.LastName</dd>
+
+            <dt class="col-sm-3">Claims Period Start</dt>
+            <dd class="col-sm-9">@Model.ClaimsPeriodStart.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Claims Period End</dt>
+            <dd class="col-sm-9">@Model.ClaimsPeriodEnd.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Hours Worked</dt>
+            <dd class="col-sm-9">@Model.HoursWorked</dd>
+
+            <dt class="col-sm-3">Rate per Hour</dt>
+            <dd class="col-sm-9">@Model.RatePerHour</dd>
+
+            <dt class="col-sm-3">Total Amount</dt>
+            <dd class="col-sm-9">@Model.TotalAmount</dd>
+
+            <dt class="col-sm-3">Description of Work</dt>
+            <dd class="col-sm-9">@Model.DescriptionOfWork</dd>
+
+            <dt class="col-sm-3">Claim Status</dt>
+            <dd class="col-sm-9">@Model.ClaimStatus</dd>
+
+            <dt class="col-sm-3">Supporting Documents</dt>
+            <dd class="col-sm-9">
+                @* Change to download option for part 3 *@
+                @if (@Model.Files != null && @Model.Files.Any())
+                {
+                    <ul>
+                        @foreach (var file in @Model.Files)
+                        {
+                            <li>
+                                @file.UniqueFileName
+                                <a asp-action="DownloadFile" asp-route-id="@file.fileId" class="btn btn-primary btn-sm">
+                                    Download
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <span>No documents uploaded</span>
+                }
+            </dd>
+        </dl>
+
+        <div class="row mt-4">
+            @if (User.IsInRole("Programme Coordinator") || User.IsInRole("Academic Manager"))
+            {
+                <div class="col-12 text-center">
+                    <a href="@Url.Action("ClaimsList", "Claims")" class="btn btn-primary btn-lg">Back to Claims List</a>
+                </div>
+
+                <div class="col-12 text-center mt-2">
+                    @using (Html.BeginForm("DeleteClaims", "Claims", new { claimId = Model.ID }, FormMethod.Post))
+                    {
+                        <button type="submit" class="btn btn-danger btn-lg">Delete</button>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="col-12 text-center">
+                    <a href="@Url.Action("YourClaims", "Claims")" class="btn btn-primary btn-lg">Back to Your Claims</a>
+                </div>
+
+                <div class="col-12 text-center mt-2">
+                    <a href="@Url.Action("EditClaims", new { id = @Model.ID })" class="btn btn-secondary btn-lg">Edit Claim</a>
+                </div>
+
+                <div class="col-12 text-center mt-2">
+                    @using (Html.BeginForm("DeleteClaims", "Claims", new { claimId = Model.ID }, FormMethod.Post))
+                    {
+                        <button type="submit" class="btn btn-danger btn-lg">Cancel Claim</button>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@if (TempData["message"] != null)
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.options = {
+            "closeButton": true,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "timeOut": "5000"
+        };
+        toastr.success('@TempData["message"]');
+    </script>
+}

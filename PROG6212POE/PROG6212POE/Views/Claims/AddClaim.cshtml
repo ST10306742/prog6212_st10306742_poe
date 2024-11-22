@@ -1,0 +1,127 @@
+﻿@model PROG6212POE.Models.Claims
+
+@{
+    ViewData["Title"] = "AddClaim";
+}
+
+<h2>
+    Submit a Claim 
+</h2>
+
+<form id="Claims" asp-action="AddClaim" method="post" enctype="multipart/form-data" class="mb-5">
+    <div class="form-group">
+        <label asp-for="LecturerID">Lecturer ID</label>
+        <input asp-for="LecturerID" class="form-control" id="LecturerID" name="LecturerID" required />
+        <span asp-validation-for="LecturerID" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FirstName">First Name</label>
+        <input asp-for="FirstName" class="form-control" id="FirstName" name="FirstName" required />
+        <span asp-validation-for="FirstName" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName">Last Name</label>
+        <input asp-for="LastName" class="form-control" id="LastName" name="LastName" required />
+        <span asp-validation-for="LastName" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ClaimsPeriodStart">Claims Period Start</label>
+        <input asp-for="ClaimsPeriodStart" type="date" class="form-control" id="ClaimsPeriodStart" name="ClaimsPeriodStart" required />
+        <span asp-validation-for="ClaimsPeriodStart" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ClaimsPeriodEnd">Claims Period End</label>
+        <input asp-for="ClaimsPeriodEnd" type="date" class="form-control" id="ClaimsPeriodEnd" name="ClaimsPeriodEnd" required />
+        <span asp-validation-for="ClaimsPeriodEnd" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HoursWorked">Hours Worked</label>
+        <input asp-for="HoursWorked" class="form-control" id="HoursWorked" name="HoursWorked" required />
+        <span asp-validation-for="HoursWorked" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RatePerHour">Rate Per Hour</label>
+        <input asp-for="RatePerHour" class="form-control" id="RatePerHour" name="RatePerHour" required />
+        <span asp-validation-for="RatePerHour" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DescriptionOfWork">Description of Work</label>
+        <input asp-for="DescriptionOfWork" class="form-control" id="DescriptionOfWork" name="DescriptionOfWork" required />
+        <span asp-validation-for="DescriptionOfWork" class="text-danger" />
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="SupportingDocuments"></label>
+        <input asp-for="SupportingDocuments" type="file" multiple class="form-control" />
+    </div>
+
+    
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+<script>
+    $(document).ready(function () {
+        // On form submission
+        $('#Claims').on('submit', function (event) {
+            event.preventDefault(); // Prevent form submission to handle validation first
+
+            toastr.clear(); // Clear any existing Toastr messages
+
+            var isValid = true;
+
+            // Get the RatePerHour field
+            var ratePerHourField = $('#RatePerHour');
+
+            
+            // Loop through all required fields
+            $('#Claims input[required]').each(function () {
+                if ($(this).val().trim() === '') {
+                    isValid = false;
+                    toastr.error('Please fill out the ' + $(this).prev('label').text() + ' field.', 'Validation Error', {
+                        "positionClass": "toast-top-right",
+                        "timeOut": "5000",
+                        "closeButton": true,
+                        "progressBar": true
+                    });
+                }
+            });
+
+            // If all fields are valid, submit the form
+            if (isValid) {
+                this.submit(); // Continue submitting the form
+            }
+        });
+
+        // Display validation error messages from TempData if present
+        var errorMessages = @Html.Raw(Json.Serialize(TempData["errorMessages"] ?? new List<string>()));
+
+        if (errorMessages.length > 0) {
+            toastr.error(errorMessages.join('<br/>'), 'Validation Errors', {
+                "positionClass": "toast-top-right",
+                "timeOut": "5000",
+                "closeButton": true,
+                "progressBar": true
+            });
+        }
+    });
+</script>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

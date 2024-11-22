@@ -1,0 +1,167 @@
+﻿@model IEnumerable<PROG6212POE.Models.Claims>
+
+@{
+    ViewData["Title"] = "Claims List";
+}
+
+@* Display Toastr notifications if claim was approved or rejected *@
+@{
+    @if (TempData["message"] != null)
+    {
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+        <script type="text/javascript">
+            toastr.success('@TempData["message"]');
+        </script>
+    }
+}
+
+@if (TempData["Rejected"] != null)
+{
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.error('@TempData["Rejected"]');
+    </script>
+}
+
+@if (TempData["Approved"] != null)
+{
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.success('@TempData["Approved"]');
+    </script>
+}
+
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h2 class="display-4 text-primary font-weight-bold">HR Dashboard</h2>
+            <p class="lead text-muted">Manage claims submitted by lecturers and review their documentation.</p>
+        </div>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info">
+            @ViewBag.Message
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover table-bordered">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Claim Id</th>
+                                <th>Lecturer ID</th>
+                                <th>Last Name</th>
+                                <th>Period Start</th>
+                                <th>Period End</th>
+                                <th>Sup Docs</th>
+                                <th>Total Amount</th>
+                                <th>Claim Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var claim in Model)
+                            {
+                                <tr>
+                                    <td>@claim.ID</td>
+                                    <td>@claim.LecturerID</td>
+                                    <td>@claim.LastName</td>
+                                    <td>@claim.ClaimsPeriodStart.ToShortDateString()</td>
+                                    <td>@claim.ClaimsPeriodEnd.ToShortDateString()</td>
+                                    <td>
+                                        @if (claim.Files != null && claim.Files.Any())
+                                        {
+                                            <ul class="list-unstyled">
+                                                @foreach (var file in claim.Files)
+                                                {
+                                                    <li>
+                                                        @file.UniqueFileName
+                                                        <a asp-action="DownloadFile" asp-route-id="@file.fileId" class="btn btn-outline-primary btn-sm ml-2">
+                                                            <i class="fas fa-download"></i> Download
+                                                        </a>
+                                                    </li>
+                                                }
+                                            </ul>
+                                        }
+                                        else
+                                        {
+                                            <span>No documents uploaded</span>
+                                        }
+                                    </td>
+                                    <td>R @claim.TotalAmount</td>
+                                    <td>@claim.ClaimStatus</td>
+                                    <td class="text-center">
+                                        <a href="@Url.Action("ApproveClaim", new { id = claim.ID })" class="btn btn-success btn-sm">
+                                            <i class="fas fa-check"></i> Approve
+                                        </a>
+                                        <a href="@Url.Action("RejectClaim", new { id = claim.ID })" class="btn btn-danger btn-sm mt-2">
+                                            <i class="fas fa-times"></i> Reject
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@* Optional: Custom CSS for further tweaks *@
+<style>
+    .container {
+        max-width: 1200px;
+    }
+
+    /* Make table more readable */
+    .table-hover tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+
+    /* Add some space around buttons */
+    .btn-sm {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.875rem;
+    }
+
+    /* Card styling */
+    .card {
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    /* Add some margin between elements */
+    .table-responsive {
+        margin-top: 20px;
+    }
+
+    /* Apply shadow to the entire card */
+    .card.shadow-sm {
+        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Toastr notifications */
+    .toast {
+        font-size: 16px;
+    }
+
+    /* Icons for download buttons */
+    .fa-download, .fa-check, .fa-times {
+        margin-right: 5px;
+    }
+</style>
+
+@* Font Awesome icons for action buttons *@
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

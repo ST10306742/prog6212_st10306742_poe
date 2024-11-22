@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.carousel {
+    max-width: 80%; 
+    margin: auto;
+}
+
+.carousel-item img {
+    max-height: 400px; 
+    width: 100%; 
+    object-fit: contain; 
+    background-color: #98fb98; 
+}
+
